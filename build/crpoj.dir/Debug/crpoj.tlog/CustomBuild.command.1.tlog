@@ -1,0 +1,10 @@
+^U:\ARRRR\CROWPROJ\CMAKELISTS.TXT
+setlocal
+"D:\MVS\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SU:/arrrr/Crowproj -BU:/arrrr/Crowproj/build --check-stamp-file U:/arrrr/Crowproj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
