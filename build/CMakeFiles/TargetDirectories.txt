@@ -1,3 +1,0 @@
-U:/arrrr/Crowproj/build/CMakeFiles/crpoj.dir
-U:/arrrr/Crowproj/build/CMakeFiles/ALL_BUILD.dir
-U:/arrrr/Crowproj/build/CMakeFiles/ZERO_CHECK.dir
